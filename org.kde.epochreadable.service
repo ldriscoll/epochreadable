@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.kde.epochreadable
+Exec=/usr/bin/python3 "/home/luke/projects/epochreadable/epochreadable.py"

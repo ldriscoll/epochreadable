@@ -1,4 +1,4 @@
-### unixtime
+### epochreadable
 
 This plugin provides a simple template for a KRunner plugin using dbus.
 
@@ -10,9 +10,9 @@ requests matches and it does not need to be autostarted.
 If you want to run the plugin manually to debug it you can do the following:  
 ```bash
 mkdir -p ~/.local/share/kservices5/krunner/dbusplugins/
-cp plasma-runner-unixtime.desktop ~/.local/share/kservices5/krunner/dbusplugins/
+cp plasma-runner-epochreadable.desktop ~/.local/share/kservices5/krunner/dbusplugins/
 kquitapp5 krunner
-python3 unixtime.py
+python3 epochreadable.py
 ```
 
 After that you should see your runner when typing `hello` in KRunner.

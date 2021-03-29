@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.kde.unixtime
-Exec=/usr/bin/python3 "/home/luke/projects/unixtime/unixtime.py"

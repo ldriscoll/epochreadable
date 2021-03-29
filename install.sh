@@ -13,8 +13,8 @@ fi
 mkdir -p $prefix/kservices5/krunner/dbusplugins/
 mkdir -p $prefix/dbus-1/services/
 
-cp plasma-runner-unixtime.desktop $prefix/kservices5/krunner/dbusplugins/
-sed "s|/home/luke/projects/unixtime/unixtime.py|${PWD}/unixtime.py|" "org.kde.unixtime.service" > $prefix/dbus-1/services/org.kde.unixtime.service
+cp plasma-runner-epochreadable.desktop $prefix/kservices5/krunner/dbusplugins/
+sed "s|/home/luke/projects/epochreadable/epochreadable.py|${PWD}/epochreadable.py|" "org.kde.epochreadable.service" > $prefix/dbus-1/services/org.kde.epochreadable.service
 
 kquitapp5 krunner
 

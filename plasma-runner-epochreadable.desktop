@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=epochreadable
+Comment=epochreadable Runner written in Python
+X-KDE-ServiceTypes=Plasma/Runner
+Type=Service
+Icon=clock
+X-KDE-PluginInfo-Author=Luke Driscoll
+X-KDE-PluginInfo-Email=luke.driscoll@gmail.com
+X-KDE-PluginInfo-Name=epochreadable
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-License=LGPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=DBus
+X-Plasma-DBusRunner-Service=org.kde.epochreadable
+X-Plasma-DBusRunner-Path=/epochreadable

@@ -9,7 +9,7 @@ else
     prefix="$XDG_DATA_HOME"
 fi
 
-rm $prefix/kservices5/krunner/dbusplugins/plasma-runner-unixtime.desktop
-rm $prefix/dbus-1/services/org.kde.unixtime.service
+rm $prefix/kservices5/krunner/dbusplugins/plasma-runner-epochreadable.desktop
+rm $prefix/dbus-1/services/org.kde.epochreadable.service
 kquitapp5 krunner
 

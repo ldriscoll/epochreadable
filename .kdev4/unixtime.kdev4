@@ -1,0 +1,14 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x10\x00u\x00n\x00i\x00x\x00t\x00i\x00m\x00e)
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=PlasmoidLauncher
+Name=New Plasmoid Launcher Launcher
+Type=PlasmoidLauncherType
+
+[Project]
+VersionControlSupport=kdevgit
