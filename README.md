@@ -1,6 +1,10 @@
 ### epochreadable
 
-This plugin provides a simple template for a KRunner plugin using dbus.
+This plugin provides a simple way of converting an epoch millisecond time into UTC and localtime
+It allows for copying the result into the clipboard
+
+
+### Local installation
 
 The install script copies the Krunner config file and a dbus activation service file
 to their appropiate locations.  
@@ -14,8 +18,6 @@ cp plasma-runner-epochreadable.desktop ~/.local/share/kservices5/krunner/dbusplu
 kquitapp5 krunner
 python3 epochreadable.py
 ```
-
-After that you should see your runner when typing `hello` in KRunner.
 
 More information can be found here:  
 https://cgit.kde.org/krunner.git/plain/src/data/org.kde.krunner1.xml  
